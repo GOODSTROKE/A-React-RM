@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import TableData from './components/tableData'
 
+
 const API_URL = process.env.REACT_APP_API_URL
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
   return (
     <>
       <div className='seperator'>
+        <h2>Rick & Morty Project:</h2>
+        <br></br>/
         <h2>Characters:</h2>
         <TableData data={data} />
       </div>
